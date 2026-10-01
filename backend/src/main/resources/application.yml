@@ -4,9 +4,9 @@ spring:
   datasource:
     # createDatabaseIfNotExist=true means you don't even have to create the schema by hand —
     # just have MySQL running. Override DB_USER/DB_PASS if your local root password differs.
-    url: ${DB_URL:jdbc:mysql://localhost:3306/studysync?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    url: ${DB_URL:jdbc:mysql://localhost:3306/study?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
     username: ${DB_USER:root}
-    password: ${DB_PASS:root}
+    password: ${DB_PASS:KHUSHI1369@naik}
   jpa:
     hibernate:
       ddl-auto: update            # Hibernate owns the MySQL schema (creates/updates tables on boot)
