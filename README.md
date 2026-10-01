@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # StudySync — Study Group & Notes Sharing Platform
 
 One place for students to share notes, join subject study groups, ask & answer questions, chat in
@@ -195,3 +196,6 @@ cd backend && ./mvnw test
 
 Includes a pure unit test for the JWT service. Module/integration tests against a real Postgres are
 the natural next step (Testcontainers).
+=======
+# StudySync
+>>>>>>> 9602142204ef6b0b496e1ebc46b623f1964de8a7
